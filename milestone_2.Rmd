@@ -1,0 +1,13 @@
+---
+title: "milestone_2"
+author: "Jeremy Ornstein"
+date: "9/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+Harvard Dining Search Tool is an interesting project. It regularly scrapes the Harvard Dining site to present up-to-date data on food trends-- I appreciate its relevance, in time and content! I'm less enthused about the way it fails to comb out some data points. It includes "jimmies," and "cilantro," as frequent dinner meals, which is unhelpful to me if I want to know what's probably going to be for dinner tonight. That's why the "meat dishes" tab is helpful. It filters through the data points to find the ones that constitute almost an entire meal, and vary often. It's a way to say something interesting and unique about a mess of information that comes from different categories. 
+
+"Settling the dust" is a serious project that reckons with pollution in China, politically and environmentally. The data didn't seem hard to find-- it was sourced from studies that already analyzed it, looks like-- but it was made to be useful as part of a broader argument. That's appealing to me: how can I present data beside words to say something relevant? Another appealing aspect was the way the user-- me-- could interact with the data. But the project didn't write anything to let the user know what the interaction could mean! What does the time frame of twitter spikes mean? If I make data interactive, I want to give instructions on what the changes mean. 
